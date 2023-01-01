@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int i,j,k,N,t,x,max;
+    cin>>t;
+    for(x=1;x<=t;x++)
+    {
+    cin>>N;
+    int ar[N];
+    for(i=0;i<N;i++){
+        cin>>ar[i];
+    }
+    for(i=0;i<N;i++){
+        for(j=i;j<N;j++){
+                 max=ar[j];
+            for(k=i;k<=j;k++){
+                if(max<ar[k]){
+                    max = ar[k];
+                }
+                }
+        cout<<max<<" ";
+        }
+        }
+         cout<<endl;
+    }
+return 0;
+}
