@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int ar[1000];
+    int i,a,sum=0;
+    cin>>a;
+    for(i=0;i<a;i++){
+        cin>>ar[i];
+    }
+    for(i=0;i<a;i++){
+        sum = sum + ar[i];
+    }
+    cout<<sum<<endl;
+
+    return 0;
+}
