@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n,i,a,flag=0;
+    cin>>n;
+    int ar[n];
+    for(i=0;i<n;i++){
+        cin>>ar[i];
+    }
+    cin>>a;
+    for(i=0;i<n;i++){
+        if(ar[i]==a){
+            cout<<i<<endl;
+            flag++;
+            break;
+        }
+    }
+    if(flag==0){
+        cout<<"-1"<<endl;
+    }
+    return 0;
+}
