@@ -1,0 +1,41 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int i,j,k,t,x,n;
+    cin>>x;
+    for(t=1;t<=x;t++)
+    {
+       int flag=0;
+    cin>>n;
+    int ar[n];
+    for(i=0;i<n;i++){
+        cin>>ar[i];
+    }
+    for(i=0;i<n;i++){
+            flag++;
+        for(j=i+1;j<n;j++){
+            if(ar[j]>=ar[j-1]){
+                flag++;
+            }
+            else{
+                break;
+            }
+        }
+
+
+    }
+    cout<<flag<<endl;
+    }
+
+
+    return 0;
+}
+/*
+2
+5
+1 4 2 3 5
+1
+5
+*/
