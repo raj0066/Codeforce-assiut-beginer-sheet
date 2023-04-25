@@ -2,5 +2,5 @@
 
 This project contains some solutions of problems from assiut university begginer trainer sheet. Anyone who need help to find the solution can look in the project, but try enough by yoursef before. 
 
-You can suggest if you know any bettre solution of any problem.
+You can suggest if you know any better solution of any problem.
 
